@@ -58,22 +58,6 @@ header button {
 	opacity: 0.9;
 }
 
-#search-input {
-	float: right;
-	padding: 5px;
-	font-size: 15px;
-	min-width: 200px;
-	border-radius: 5px;
-	margin-top: 10px;
-}
-
-#search-submit {
-	float: right;
-	height: 80%;
-	margin-top: 10px;
-	height: 63%;
-	margin-right: 10px;
-}
 
 #sitename {
 	float: left;
