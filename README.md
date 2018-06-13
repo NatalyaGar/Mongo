@@ -10,8 +10,9 @@ In this repository, you can see source code of NYT Scraper. For experiencing, pl
 
 https:.herokuapp.com/
 
-Key Dependencies
-request: enables cheerio to get access to front-end code of https://www.nytimes.com/section/world
+### Key Dependencies
+
+* request: enables cheerio to get access to front-end code of https://www.nytimes.com/section/world
 
 * cheerio: scrapes front-end code from https://www.nytimes.com/section/world
 
