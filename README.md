@@ -8,7 +8,7 @@ The Mongo Scraper is a scraper app which captures the title, summary and image o
 
 In this repository, you can see source code of Mongo Scraper. For experiencing, please go to Heroku:
 
-https:.herokuapp.com/
+https://mongo-scraper-natalya.herokuapp.com/
 
 ### Key Dependencies
 
