@@ -1,12 +1,12 @@
 # Mongo
 
-## The New York Time Scraper
+## Mongo Scraper
 
 #### Overview
 
-The New York Time (NYT) Scraper is a scraper app which captures the title, summary and image of articles of The New York Times. In this app, users are able to save their preferred articles, add notes and edit notes to one or multiple articles. 
+The Mongo Scraper is a scraper app which captures the title, summary and image of articles of The New York Times. In this app, users are able to save their preferred articles, add notes and edit notes to one or multiple articles. 
 
-In this repository, you can see source code of NYT Scraper. For experiencing, please go to Heroku:
+In this repository, you can see source code of Mongo Scraper. For experiencing, please go to Heroku:
 
 https:.herokuapp.com/
 
@@ -16,7 +16,7 @@ https:.herokuapp.com/
 
 * cheerio: scrapes front-end code from https://www.nytimes.com/section/world
 
-* mongoose: be in charge of database of NYT Scraper
+* mongoose: be in charge of database of Mongo Scraper
 
 * express: builds server-side routes and functions
 

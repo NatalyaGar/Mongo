@@ -4,7 +4,8 @@
 }
 
 body {
-	background-color: #eee;
+	/* background-image: url("../images/paper.png"); */
+	background-color: rgb(237, 242, 245)
 }
 
 button {
@@ -28,7 +29,7 @@ header {
 	width: 100%;
 	height: 70px;
 	box-shadow: 0 0 10px #aaa;
-	background-color: #7a91a8;
+	background-color: #abb9ce;
 	opacity: 0.9;
 }
 
@@ -42,15 +43,15 @@ header button {
 }
 
 #all-articles {
-	background-color: #999;
+	background-color: rgb(68, 131, 224);
 }
 
 #saved-articles {
-	background-color: #aaa;
+	background-color: rgb(162, 172, 180);
 }
 
 #refresh-articles {
-	background-color: #bbb;
+	background-color: rgb(59, 141, 196);
 }
 
 #all-articles:hover, #saved-articles:hover, #refresh-articles:hover {
@@ -216,6 +217,6 @@ footer {
 	color: #ddd;
 	font-size: 15px;
 	border-top: 8px solid #3e9cfc;
-	opacity: 0.7;
-	z-index: 3;
+	/* opacity: 0.7; */
+	/* z-index: 3; */
 }
