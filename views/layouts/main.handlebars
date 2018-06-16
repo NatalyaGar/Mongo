@@ -3,8 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!--Bootstrap-->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 		<title>New York Times Scraper</title>
+
 
 </head>
 
@@ -43,5 +50,33 @@
 	
 	<footer> Natalya Garusova 2018</footer>
 	<script src="/assets/javascript/app.js"></script>
-</body>
+
+
+
+
+	 {{!-- <!--Modal popup message for Newest Articles-->
+     <div id="modalContainerNewestArticles">
+
+         <div id="myModalNewestArticles" class="modal fade" tabindex="-1" role="dialog">
+
+         <div class="modal-dialog" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h4 class="modal-title">Thank you for Scrapeing for Newest Articles!</h4>
+             </div>
+             <div class="modal-body">
+                 <p id="thanksPair">Newest Articles Scraped!</p>
+
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-danger" id="#modalBtn" data-dismiss="modal">Close</button>
+
+             </div>
+           </div><!-- /.modal-content -->
+         </div><!-- /.modal-dialog -->
+       </div><!-- /.modal -->
+     </div> <!-- /.modal container --> --}}
+
+ </body>
 </html>

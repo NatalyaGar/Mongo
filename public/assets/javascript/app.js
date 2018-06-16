@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 function shownote(event) {
 	event.preventDefault();
 	var id = $(this).attr("value");
@@ -38,9 +40,21 @@ function changeback() {
 	$(this).html($(this).attr("value"));
 }
 
+
 $(document).on("click", ".addnote-button", shownote);
 $(document).on("click", "#add-note", addnote);
 $(".status").hover(changestatus, changeback);
 $("#close-note").on("click", function() {
 	$("#addnote").fadeOut(300);
 });
+
+
+// $("#refresh-articles").on("click", function(event) {
+// 	event.preventDefault();
+// 	//Modal message show when click Scrape For Newest Articles button
+// 	$('myModalNewestArticles').modal();
+// 	$("#modalContainerNewestArticles").show()
+	
+//   });
+ });
+
