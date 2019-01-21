@@ -10,6 +10,9 @@ In this repository, you can see source code of Mongo Scraper. For experiencing, 
 
 https://mongo-scraper-natalya.herokuapp.com/
 
+<img src="assets/images/mongo.png" alt="Progect Picture" width="300" height="200" />
+
+
 ### Key Dependencies
 
 * request: enables cheerio to get access to front-end code of https://www.nytimes.com/section/world
