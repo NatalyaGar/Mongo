@@ -10,7 +10,7 @@ In this repository, you can see source code of Mongo Scraper. For experiencing, 
 
 https://mongo-scraper-natalya.herokuapp.com/
 
-<img src="public/assets/images/mongo.png" alt="Progect Picture" width="300" height="200" />
+<img src="public/assets/images/mongo.png" alt="Project Picture" width="300" height="200" />
 
 
 ### Key Dependencies
